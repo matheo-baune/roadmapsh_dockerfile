@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM alpine:latest
 LABEL authors="mathe"
 
-ENTRYPOINT ["top", "-b"]
+RUN echo "Hello, Captain!"
