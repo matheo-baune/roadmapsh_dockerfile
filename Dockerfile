@@ -1,4 +1,4 @@
 FROM alpine:latest
 LABEL authors="mathe"
 
-RUN echo "Hello, Captain!"
+CMD ["echo", "Hello, Captain!"]
